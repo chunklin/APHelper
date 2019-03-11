@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SelectSubject"
+    tools:showIn="@layout/activity_select_subject">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="66dp"
+        android:text="AP Calculus YZ"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:text="AP Calculus BC"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:text="Select Subject:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/apchembutton"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="AP Chemistry"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/Title"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:text="AP Biology"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:text="AP U.S. History"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:text="AP Calculus AB"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+</android.support.constraint.ConstraintLayout>
