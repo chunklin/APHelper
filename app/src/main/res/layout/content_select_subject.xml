@@ -10,22 +10,25 @@
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="300"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="66dp"
+        android:layout_marginBottom="24dp"
         android:text="AP Calculus YZ"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="25dp" />
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="300"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="AP Calculus BC"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="323dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <TextView
         android:id="@+id/Title"
@@ -34,44 +37,53 @@
         android:text="Select Subject:"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintBottom_toTopOf="@+id/apchembutton"
+        app:layout_constraintEnd_toEndOf="@+id/apchembutton"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/apchembutton"
-        android:layout_width="300"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:text="AP Chemistry"
         android:textSize="30sp"
-        app:layout_constraintTop_toBottomOf="@+id/Title"
-        tools:layout_editor_absoluteX="25dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="300"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="AP Biology"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="140dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/apchembutton" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="300"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="AP U.S. History"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="300"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="AP Calculus AB"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="262dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
 </android.support.constraint.ConstraintLayout>
